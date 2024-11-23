@@ -1,2 +1,2 @@
-# Low-Power-Scan-Cell-and-Chain
-Design of Low Power Scan Cell and Scan Chain in Verilog using Xilinx Vivado
+# Low-Power-Scan-Cell-and-LFSR
+Design of Low Power Scan Cell and LFSR in Verilog using Xilinx Vivado
