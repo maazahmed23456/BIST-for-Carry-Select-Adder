@@ -1,2 +1,2 @@
-# Low-Power-Scan-Cell-and-LFSR
-Design of Low Power Scan Cell and LFSR in Verilog using Xilinx Vivado
+# BIST for Carry Select Adder
+Design of a Built In Self Test architecture for fault analysis and fault diagnosis of a Carry Select Adder
