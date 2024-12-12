@@ -18,10 +18,10 @@ This project was inspired by the work of **D.M. Ellaithy**, who designed a low-p
 Ellaithy, D.M. (2024). *A low-power 8-bit 1-MS/s single-ended SAR ADC in 130-nm CMOS for medical devices*. *Journal of Electrical Systems and Information Technology*, 11, 21. [DOI: 10.1186/s43067-024-00147-z](https://doi.org/10.1186/s43067-024-00147-z)
 
 
-## Block Diagram of the SAR ADC 
+## Block Diagram of BIST 
 
  <p align="center">
-  <img width="800" height="500" src="/Images/block diagram.png">
+  <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFROMS/BLOCK.png">
 </p>
 
 
