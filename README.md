@@ -21,54 +21,33 @@ Ellaithy, D.M. (2024). *A low-power 8-bit 1-MS/s single-ended SAR ADC in 130-nm 
 ## Block Diagram of BIST 
 
  <p align="center">
-  <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFROMS/BLOCK.png">
+  <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFORMS/BLOCK.jpg">
 </p>
 
 
-
-
-## Circuit Diagram of the Sample and Hold Circuit
+## Schematic of BIST without fault
 
  <p align="center">
-  <img width="800" height="500" src="/Images/BSC.jpg">
+  <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFORMS/WITHOUT FAULT SCHEMATIC.png">
 </p>
 
-## Circuit Diagram of the Comparator Circuit
+## Simulation of BIST without fault
 
  <p align="center">
-  <img width="800" height="500" src="/Images/COMPC.jpg">
+  <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFORMS/WITHOUT FAULT SIMULATION.png">
 </p>
 
-## Circuit Diagram of the SAR
+## Schematic of BIST with fault
 
  <p align="center">
-  <img width="800" height="500" src="/Images/SARC.jpg">
+  <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFORMS/WITH FAULT SCHEMATIC.png">
 </p>
 
-## Circuit Diagram of the DAC
+## Simulation of BIST with fault
 
  <p align="center">
-  <img width="800" height="500" src="/Images/DACC.jpg">
+  <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFORMS/WITH FAULT SIMULATION.png">
 </p>
-
-
-## Pre-Layout Simulation
-
-###  Transient Analysis of Sample and Hold
-
-
- <p align="center">
-  <img width="800" height="500" src="/Images/BSS.jpg">
-</p>
-
-
-###  Transient Analysis of Comparator
-
-
- <p align="center">
-  <img width="800" height="500" src="/Images/COMPS.jpg">
-</p>
-
 
 
 ***************
@@ -77,27 +56,11 @@ Ellaithy, D.M. (2024). *A low-power 8-bit 1-MS/s single-ended SAR ADC in 130-nm 
 
 ## Future Work
 
-- Design the remaining SAR logic block and Capactive DAC
-- Perfrom prelayout simulation of everythihng together to show working of SAR ADC
-- Perform the layout of each components and perfrom post layout simulation and verify , Complete LVS and DRC
-
-1. **Enhance SNDR and SFDR:** Use optimized capacitor sizing and layout to minimize mismatch, enhancing signal-to-noise distortion ratio (SNDR) and spurious free dynamic range (SFDR).
-
-2. **Improve Effective Number of Bits (ENOB):** Design a high-precision, low-offset comparator to increase accuracy, contributing to a higher ENOB.
-
-3. **Reduce Noise:** Implement low-noise reference and power supply management techniques to suppress noise contributions from external sources.
-
-4. **Optimize Switching Energy:** Use advanced DAC switching techniques (e.g., split-capacitor switching) to minimize power consumption and switching noise, crucial for handling low-frequency ECG signals.
-
-5. **Fabricate and Test with Real Signals:** Plan for IC fabrication and real-time testing with ECG signal acquisition to validate performance, ensuring reliable operation in medical applications.
+- Design similar BIST architecture for any other arithmetic modules which can be done just by replacing the CSA module and adjusting the input sizes
 
 ## Contributors 
 
-- **Maaz Ahmed** 
-- **Krishna Mouli** 
-- **Sandeep** 
-
-
+- **Maaz Ahmed**  
 
 ## Acknowledgments
 
