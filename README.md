@@ -55,7 +55,7 @@ In this module SA0 fault is modelled at a input in the schematic
   <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFORMS/WITH FAULT SIMULATION.png">
 </p>
 
-- We can observe that after inserting a SA0 at a input , the obtained signature value **27** doesnt match with the golder signature **13**
+- We can observe that after inserting a SA0 at a input , the obtained signature value **27** doesnt match with the golden signature **13**
 - This shows the presence of fault in the CSA which needs to be corrected. 
 
 
