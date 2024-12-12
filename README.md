@@ -13,9 +13,9 @@ Built-In Self-Test (BIST) is a vital testing architecture in VLSI systems, desig
 
 ## Base Paper
 
-This project was inspired by the work of **D.M. Ellaithy**, who designed a low-power 8-bit SAR ADC for medical devices. For a detailed description of the ADC design, refer to the following paper:
+This project was inspired by the work of followint paper, who designed a BIST architecture for a Carry Select Adder, refer to the following paper:
 
-Ellaithy, D.M. (2024). *A low-power 8-bit 1-MS/s single-ended SAR ADC in 130-nm CMOS for medical devices*. *Journal of Electrical Systems and Information Technology*, 11, 21. [DOI: 10.1186/s43067-024-00147-z](https://doi.org/10.1186/s43067-024-00147-z)
+Solanki, Garima & Agarwal, Sourav & Mishra, Tushar & Khandelwal, Vansh. (2024). Design and Implementation of BIST logic for High Speed and Energy Efficient Carry Select Adder(CSLA). 1-5. 10.1109/ICSTSN61422.2024.10670853. 
 
 
 ## Block Diagram of BIST 
