@@ -13,7 +13,7 @@ Built-In Self-Test (BIST) is a vital testing architecture in VLSI systems, desig
 
 ## Base Paper
 
-This project was inspired by the work of followint paper, who designed a BIST architecture for a Carry Select Adder, refer to the following paper:
+This project was inspired by the work of following paper, who designed a BIST architecture for a Carry Select Adder, refer to the following paper:
 
 Solanki, Garima & Agarwal, Sourav & Mishra, Tushar & Khandelwal, Vansh. (2024). Design and Implementation of BIST logic for High Speed and Energy Efficient Carry Select Adder(CSLA). 1-5. 10.1109/ICSTSN61422.2024.10670853. 
 
@@ -31,11 +31,15 @@ Solanki, Garima & Agarwal, Sourav & Mishra, Tushar & Khandelwal, Vansh. (2024). 
   <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFORMS/WITHOUT FAULT SCHEMATIC.png">
 </p>
 
+This module is used to generate the signature
+
 ## Simulation of BIST without fault
 
  <p align="center">
   <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFORMS/WITHOUT FAULT SIMULATION.png">
 </p>
+
+After 2^n - 1 clock cycle which in this case is 2047 , the **Signature** is obtained as **13** in hexadecimal
 
 ## Schematic of BIST with fault
 
@@ -43,11 +47,16 @@ Solanki, Garima & Agarwal, Sourav & Mishra, Tushar & Khandelwal, Vansh. (2024). 
   <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFORMS/WITH FAULT SCHEMATIC.png">
 </p>
 
+In this module SA0 fault is modelled at a input in the schematic
+
 ## Simulation of BIST with fault
 
  <p align="center">
   <img width="800" height="500" src="/BIST SCHEMATICS AND WAVEFORMS/WITH FAULT SIMULATION.png">
 </p>
+
+- We can observe that after inserting a SA0 at a input , the obtained signature value **27** doesnt match with the golder signature **13**
+- This shows the presence of fault in the CSA which needs to be corrected. 
 
 
 ***************
